@@ -54,7 +54,7 @@ jobs:
         run: |
           sonar-scanner \
             -Dsonar.projectKey=emnagaidi \
-            -Dsonar.organization=Emna Gaidi \
+            -Dsonar.organization=emna \
             -Dsonar.sources=. \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=$SONAR_TOKEN
